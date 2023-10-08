@@ -19,7 +19,8 @@ class ReactForm extends Component {
         this.setState({ [event.target.name]: event.target.value })
     }
     back = ()=> this.setState({disp : true})
-    handleSubmit = () => {
+    handleSubmit = (e) => {
+        e.preventDefault()
         if(!this.state.name){
             this.setState({nmErr : true})
         }
