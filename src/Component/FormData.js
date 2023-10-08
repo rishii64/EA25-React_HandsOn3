@@ -4,7 +4,7 @@ export class FormData extends Component {
     render() {
         return (
             <div id='empData'>
-                <h1>EMPLOYEE FEEDBACK DATA</h1>
+                <h2 id="head">EMPLOYEE FEEDBACK DATA</h2>
                 <div id='box'>
                     {this.props.value.map((item, index) => {
                         return (

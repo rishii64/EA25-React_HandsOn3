@@ -35,7 +35,7 @@ body{
   height: auto;
 }
 #btn{
-  width: 10vw;
+  width: 15vw;
   height: 1.8em;
   border-radius: 5px;
   background-color: #ffffff;
@@ -100,6 +100,9 @@ p{
     height: 26em;
     gap: 15px;
   }
+  h2{
+    margin-top: 20px;
+  }
   #head{
     font-size: calc(15px + 1vw);
   }
@@ -126,4 +129,5 @@ p{
   #head{
     font-size: calc(15px + 1vw);
   }
+  
 }
